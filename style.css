@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Oswald:wght@300&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body {
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    --headingsize: 2.5rem;
+
+}
+
+/*************************** 
+     HEADER STYLING 
+****************************/
+
+.header {
+
+    height: 70vh;
+    
+    
+}
+
+.navBar{
+    height: 12vh;
+    background-color: black;
+    
+}
+
+.navlist{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    align-items: center;
+    height: inherit;
+    /* position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 5; */
+    
+}
+
+.navlist li{
+    list-style: none;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+
+}
+
+.navlist a{
+    text-decoration: none;
+    color: white;
+   
+
+    
+}
+
+.navlist a:hover {
+    color: orange;
+}
+
+.awslogo {
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.Header-images {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    
+    
+}
+
+.faran {
+    border-right: 5px solid orange;
+    margin-right: 5px;
+}
+/***************************** 
+SECTION STYLING 
+******************************/
+.skills-container, .porcontainer, .myrescontainer {
+    height: 70vh;
+    text-align: center;
+
+}
+
+.skills-container h1, .porcontainer h1, .myrescontainer h1 {
+    text-align: center;
+    color: white;
+    background-color: lightgray;    
+    padding: 15px;
+    font-size: var(--headingsize);
+}
+/****************************
+SKILL STYLING 
+******************************/
+.skills-container {
+    margin-top: 5%;
+    
+}
+
+.skillwrap {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 30px;
+    margin-top: 30px;
+}
+
+.skill-image {
+    height: 90px;
+    
+}
+
+/*****************************
+    FOOTER ICON STYLING
+******************************/
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2.5rem;
+    
+}
+
+footer h1 {
+    text-align: center;
+    font-size: var(--headingsize);
+    margin-bottom: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+.icons a {
+    margin-right: 50px;
+    
+}
+
+.icons a:last-child {
+    margin-right: 0px;
+    
+}
+
+.icons a:hover {
+    color: orange;
+}
